@@ -1,0 +1,64 @@
+<div class="appbar">
+  <button class="icon-btn" data-back><i class="bi bi-arrow-left"></i></button>
+  <div><div class="title">Create Post</div><div class="subtitle">Step 1 of 4</div></div>
+  <div class="appbar-actions">
+    <button class="btn btn-secondary btn-sm">Save</button>
+    <button class="btn btn-primary btn-sm"><span>Next</span><i class="bi bi-arrow-right"></i></button>
+  </div>
+</div>
+<div class="page">
+  <div class="section-title"><div>
+    <div class="h3">Select Accounts</div>
+    <div class="tiny muted mt-2">Choose the accounts.</div>
+  </div><label class="checkbox"><span class="link-yellow">Select All</span><input type="checkbox"/></label></div>
+
+  <div id="accPickList" class="acc-select mt-3"></div>
+
+  <div class="mt-5">
+    <div class="section-title">
+      <div><div class="h3">Post Content</div><div class="tiny muted mt-2">Create engaging content.</div></div>
+      <span class="link-yellow tiny"><i class="bi bi-stars"></i> AI Assistant</span>
+    </div>
+    <div class="compose mt-3">
+      <textarea id="caption" placeholder="Write your post content here..."></textarea>
+      <div class="toolbar">
+        <i class="bi bi-emoji-smile"></i>
+        <i class="bi bi-hash"></i>
+        <i class="bi bi-at"></i>
+        <span class="count" id="charCount">0 / 2200</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5">
+    <div class="h3">Media</div>
+    <div class="tiny muted mt-2 mb-3">Add images, videos, or files to your post.</div>
+    <div class="media-drop">
+      <div class="ic"><i class="bi bi-image"></i></div>
+      <div class="t">Add Media</div>
+      <div class="d">Drag and drop files here or click to browse<br/>Supports: Images, Videos (Max 100MB)</div>
+    </div>
+  </div>
+
+  <div class="mt-5">
+    <div class="h3">Post Options</div>
+    <div class="tiny muted mt-2 mb-3">Configure how your post will be published.</div>
+    <div class="opt-grid">
+      <div class="opt">
+        <div class="row1"><div class="oi"><i class="bi bi-clock"></i></div><div class="toggle"></div></div>
+        <div class="t">Schedule Post</div><div class="d">Choose date &amp; time</div>
+      </div>
+      <div class="opt">
+        <div class="row1"><div class="oi"><i class="bi bi-megaphone"></i></div><div class="toggle"></div></div>
+        <div class="t">Boost Post</div><div class="d">Increase reach</div>
+      </div>
+      <div class="opt">
+        <div class="row1"><div class="oi"><i class="bi bi-chat-dots"></i></div><div class="toggle on"></div></div>
+        <div class="t">Allow Comments</div><div class="d">Show comments</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5"></div>
+  <button class="btn btn-primary">Next Step <i class="bi bi-arrow-right"></i></button>
+</div>
